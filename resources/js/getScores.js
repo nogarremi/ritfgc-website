@@ -11,6 +11,6 @@ function getScores(semesterID = 2, gameID = 1) {
 			makeHtml(gameID, res.results)
 		}
 	};
-	xhttp.open("GET", api_url + semesterID.toString() + "/"+ gameID.toString(), true);	
+	xhttp.open("GET", "https://o4rcohjw1a.execute-api.us-east-1.amazonaws.com/prod/results/" + semesterID.toString() + "/"+ gameID.toString(), true);	
 	xhttp.send(null);
 }
