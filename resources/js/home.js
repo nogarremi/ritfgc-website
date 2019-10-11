@@ -1,0 +1,34 @@
+function makeHtml(gameID, results) {
+	var game = '';
+	switch(gameID) {
+		case 1:
+			game = 't7';
+			break;
+		case 2:
+			game = 'sfv';
+			break;
+		case 3:
+			game = 'bbcf';
+			break;
+		case 4:
+			game = 'xrd';
+			break;
+		case 5:
+			game = 'unist';
+			break;
+		case 6:
+			game = 'bbtag';
+			break;
+		case 7:
+			game = 'dbfz';
+			break;
+	}
+	
+	var first = Object.keys(results)[0];
+	var second = Object.keys(results)[1];
+	var third = Object.keys(results)[2];
+	document.getElementById(game + "Ranks").innerHTML = "<p><strong>First Place: </strong>" + 
+		first + " - " + results[first] + " pts</p><p><strong>Second Place: </strong>" + 
+		second + " - " + results[second] + " pts</p><p><strong>Third Place: </strong>" + 
+		third + " - " + results[third] + " pts</p>";
+}

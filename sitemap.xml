@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+   <url>
+
+      <loc>https://www.ritfgc.com</loc>
+      <loc>https://www.ritfgc.com/ranbats/</loc>
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/ellison.jpg</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/aidoo.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/beauregard.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/bbcf.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/ErikAndJason.jpg</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/favivon.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/nav_logo.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/pichardo.jpg</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/robbins.jpg</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/SF4Crowd.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/sfv.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/STSuperGun.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/t7.png</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/bbcf.webp</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/ErikAndJason.webp</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/SF4Crowd.webp</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/sfv.webp</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/STSuperGun.webp</image:loc>
+	  </image:image>
+	  
+	  <image:image>
+        <image:loc>https://www.ritfgc.com/resources/imgs/t7.webp</image:loc>
+	  </image:image>
+
+      <lastmod>2019-02-12</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+</urlset> 
