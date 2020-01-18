@@ -7,15 +7,7 @@
       <loc>https://www.ritfgc.com</loc>
       <loc>https://www.ritfgc.com/ranbats/</loc>
 	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/ellison.jpg</image:loc>
-	  </image:image>
-	  
-	  <image:image>
         <image:loc>https://www.ritfgc.com/resources/imgs/aidoo.png</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/beauregard.png</image:loc>
 	  </image:image>
 	  
 	  <image:image>
@@ -59,30 +51,10 @@
 	  </image:image>
 	  
 	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/bbcf.webp</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/ErikAndJason.webp</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/SF4Crowd.webp</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/sfv.webp</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/STSuperGun.webp</image:loc>
-	  </image:image>
-	  
-	  <image:image>
-        <image:loc>https://www.ritfgc.com/resources/imgs/t7.webp</image:loc>
+        <image:loc>https://www.ritfgc.com/resources/imgs/uni.png</image:loc>
 	  </image:image>
 
-      <lastmod>2019-02-12</lastmod>
+      <lastmod>2020-01-18</lastmod>
 
       <changefreq>monthly</changefreq>
 
