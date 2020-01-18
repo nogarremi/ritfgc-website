@@ -14,13 +14,19 @@ function makeHtml(gameID, results) {
 			game = 'xrd';
 			break;
 		case 5:
-			game = 'unist';
+			game = 'uni';
 			break;
 		case 6:
 			game = 'bbtag';
 			break;
 		case 7:
 			game = 'dbfz';
+			break;
+		case 8:
+			game = 'samsho';
+			break;
+		case 9:
+			game = 'gbvs';
 			break;
 	}
 	

@@ -856,12 +856,10 @@
   <div id="row">
   <select name="semester" id="semester" onChange=getScores()>
 	<option value='1'>2185</option>
-	<option value='2' selected>2191 (current)</option>
+	<option value='2'>2191</option>
+	<option value='3' selected>2195 (current)</option>
   </select>
   <select name="game" id="game" onChange=getScores()>
-	<option value=1 selected>T7</option>
-	<option value=3>BBCF</option>
-	<option value=5>UNIST</option>
   </select>
   </div>
   <div id="results" class="text-center">
@@ -898,16 +896,20 @@ $(document).ready(function(){
 });
 $('#semester').on('change', function(){
     $('#game').html('');
-    if($('#semester').val()==2){
-        $('#game').append('<option value="1">T7</option>');
-        $('#game').append('<option value="3">BBCF</option>');
-        $('#game').append('<option value="5">UNIST</option>');
-    }
-	else if($('#semester').val()==1){
-        $('#game').append('<option value="1">T7</option>');
-        $('#game').append('<option value="3">BBCF</option>');
-        $('#game').append('<option value="2">SFV</option>');
-    }
+	switch($('#semester').val()) {
+		case 3:
+			$('#game').append('<option value="5" selected>UNI</option>');
+			$('#game').append('<option value="3">BBCF</option>');
+			$('#game').append('<option value="9">GBVS</option>');
+		case 2:
+			$('#game').append('<option value="1" selected>T7</option>');
+			$('#game').append('<option value="3">BBCF</option>');
+			$('#game').append('<option value="5">UNI</option>');
+		case 1:
+			$('#game').append('<option value="1" selected>T7</option>');
+			$('#game').append('<option value="3">BBCF</option>');
+			$('#game').append('<option value="2">SFV</option>');
+	}
 });
 </script>
 

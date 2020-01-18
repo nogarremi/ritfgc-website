@@ -896,7 +896,7 @@
 <div id="club" class="container text-center">
   <h3>THE CLUB</h3>
   <p><em>We love fighting games!</em></p>
-  <p>We love to get together and play all types of fighting games. We meet Friday nights from 6pm to 12am in Institute Hall room 1140. Starting at 8pm, we run our weekly tournaments. This year our staple games are Tekken 7, BlazBlue: Central Fiction, and Under Night In-Birth Exe: Late[st]. We also have one more tournament that is a different game every week based on the community's interest. If tournaments aren't your thing or you are looking to just hang out, feel free to come and meet people and play some casual sets.</p>
+  <p>We love to get together and play all types of fighting games. We meet Friday nights from 6pm to 12am in Institute Hall room 1140. Starting at 8pm, we run our weekly tournaments. This semester our staple games are Granblue Fantasy Versus, BlazBlue: Central Fiction, and Under Night In-Birth Exe: Late[clr]. We also have one more tournament that is a different game every week based on the community's interest. If tournaments aren't your thing or you are looking to just hang out, feel free to come and meet people and play some casual sets.</p>
 </div>
 
 <!-- Container (RANBATS Section) -->
@@ -905,11 +905,12 @@
     <h3 class="text-center">RANBATS</h3>
     <div class="row">
     <div class="col-sm-4">
-      <p class="text-center"><strong>Tekken 7</strong></p><br>
-      <a href="#t7Ranks" data-toggle="collapse">
-        <img id="t7" src="resources/imgs/t7.png" class="person" alt="Tekken 7" width="255" height="255">
+      <p class="text-center"><strong>Under Night In-Birth Exe:Late [clr]</strong></p><br>
+      <a href="#uniRanks" data-toggle="collapse">
+        <img id="uni" src="resources/imgs/uni.png" class="person" alt="Under Night In-Birth Exe:Late [clr]" width="255" height="255">
       </a>
-	  <div id="t7Ranks" class="collapse">
+	  <br/>
+	  <div id="uniRanks" class="collapse">
 	  </div>
     </div>
     <div class="col-sm-4">
@@ -921,12 +922,11 @@
 	  </div>
     </div>
     <div class="col-sm-4">
-      <p class="text-center"><strong>Under Night In-Birth Exe:Late [st]</strong></p><br>
-      <a href="#unistRanks" data-toggle="collapse">
-        <img id="unist" src="resources/imgs/unist.png" class="person" alt="Under Night In-Birth Exe:Late [st]" width="255" height="255">
+      <p class="text-center"><strong>Granblue Fantasy Versus</strong></p><br>
+      <a href="#gbvsRanks" data-toggle="collapse">
+        <img id="gbvs" src="resources/imgs/gbvs.png" class="person" alt="Granblue Fantasy Versus" width="255" height="255">
       </a>
-	  <br/>
-	  <div id="unistRanks" class="collapse">
+	  <div id="gbvsRanks" class="collapse">
 	  </div>
     </div>
   </div>
@@ -1036,9 +1036,9 @@
 <script>
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
-  getScores(2,1);
-  getScores(2,5);
-  getScores(2,3);
+  getScores(3,3);
+  getScores(3,5);
+  getScores(3,9);
   
   $(".navbar a, footer a[href='#topOfPage']").on('click', function(event) {
     if (this.hash !== "") {

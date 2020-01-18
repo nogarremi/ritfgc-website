@@ -1,4 +1,4 @@
-function getScores(semesterID = 2, gameID = 1) {
+function getScores(semesterID = 3, gameID = 5) {
 	if ($("#semester").length != 0 && $("#game").length != 0){
 		semesterID = $("#semester").val();
 		gameID = $("#game").val();
