@@ -1,5 +1,5 @@
 function getScores(semesterID = 3, gameID = 5) {
-	if ($("#semester").length != 0 && $("#game").length != 0){
+	if ($("#semester").find("option").length != 0 && $("#game").find("option").length != 0){
 		semesterID = $("#semester").val();
 		gameID = $("#game").val();
 	}

@@ -860,6 +860,9 @@
 	<option value='3' selected>2195 (current)</option>
   </select>
   <select name="game" id="game" onChange=getScores()>
+	<option value="5" selected>UNI</option>
+	<option value="3">BBCF</option>
+	<option value="9">GBVS</option>
   </select>
   </div>
   <div id="results" class="text-center">
@@ -895,20 +898,23 @@ $(document).ready(function(){
 	getScores();
 });
 $('#semester').on('change', function(){
-    $('#game').html('');
-	switch($('#semester').val()) {
+	$('#game').html('');
+	switch ($('#semester').val()) {
 		case 3:
 			$('#game').append('<option value="5" selected>UNI</option>');
 			$('#game').append('<option value="3">BBCF</option>');
 			$('#game').append('<option value="9">GBVS</option>');
+			break;
 		case 2:
 			$('#game').append('<option value="1" selected>T7</option>');
 			$('#game').append('<option value="3">BBCF</option>');
 			$('#game').append('<option value="5">UNI</option>');
+			break;
 		case 1:
 			$('#game').append('<option value="1" selected>T7</option>');
 			$('#game').append('<option value="3">BBCF</option>');
 			$('#game').append('<option value="2">SFV</option>');
+			break;
 	}
 });
 </script>
