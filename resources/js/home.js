@@ -34,7 +34,7 @@ function makeHtml(gameID, results) {
 	var second = Object.keys(results)[1];
 	var third = Object.keys(results)[2];
 	document.getElementById(game + "Ranks").innerHTML = "<p><strong>First Place: </strong>" + 
-		first + " - " + results[first] + " pts</p><p><strong>Second Place: </strong>" + 
-		second + " - " + results[second] + " pts</p><p><strong>Third Place: </strong>" + 
-		third + " - " + results[third] + " pts</p>";
+		first + " - " + results[first][0] + " pts</p><p><strong>Second Place: </strong>" + 
+		second + " - " + results[second][0] + " pts</p><p><strong>Third Place: </strong>" + 
+		third + " - " + results[third][0] + " pts</p>";
 }
