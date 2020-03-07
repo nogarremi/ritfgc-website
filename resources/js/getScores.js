@@ -14,6 +14,6 @@ function getScores(semesterID = 3, gameID = 5) {
 		}
 	};
     //Opens the connection to get data
-	xhttp.open("GET", "https://o4rcohjw1a.execute-api.us-east-1.amazonaws.com/prod/results/" + semesterID.toString() + "/"+ gameID.toString(), true);	
+	xhttp.open("GET", "https://s5zqokvoo5.execute-api.us-east-1.amazonaws.com/prod/results/" + semesterID.toString() + "/"+ gameID.toString(), true);	
 	xhttp.send(null);
 }
