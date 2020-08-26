@@ -12,10 +12,10 @@ function makeHtml(gameID, results) {
 			game = 'bbcf';
 			break;
 		case 4:
-			game = 'xrd';
+			game = 'rev2';
 			break;
 		case 5:
-			game = 'uni';
+			game = 'unist';
 			break;
 		case 6:
 			game = 'bbtag';
@@ -28,6 +28,9 @@ function makeHtml(gameID, results) {
 			break;
 		case 9:
 			game = 'gbvs';
+			break;
+		case 10:
+			game = 'uniclr';
 			break;
 	}
 	
