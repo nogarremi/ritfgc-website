@@ -32,6 +32,9 @@ function makeHtml(gameID, results) {
 		case 10:
 			game = 'uniclr';
 			break;
+		case 11:
+			game = 'plusr';
+			break;
 	}
 	
     // Just grab the 1st 3 results and put them on display

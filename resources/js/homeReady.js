@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
-  getScores(4,3);
-  getScores(4,10);
-  getScores(4,4);
+  getScores(5,3);
+  getScores(5,10);
+  getScores(5,11);
   
   $(".navbar a, footer a[href='#topOfPage']").on('click', function(event) {
     if (this.hash !== "") {
