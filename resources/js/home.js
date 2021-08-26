@@ -1,5 +1,5 @@
 function makeHtml(gameID, results) {
-    // This is so the proper dropdown gets populated with the data
+	// This is so the proper dropdown gets populated with the data
 	var game = '';
 	switch(gameID) {
 		case 1:
@@ -40,10 +40,10 @@ function makeHtml(gameID, results) {
 			break;
 		case 13:
 			game = 'mbtl';
-			break;			
+			break;
 	}
-	
-    // Just grab the 1st 3 results and put them on display
+
+	// Just grab the 1st 3 results and put them on display
 	var first = Object.keys(results)[0];
 	var second = Object.keys(results)[1];
 	var third = Object.keys(results)[2];
