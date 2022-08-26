@@ -3,7 +3,12 @@ $(document).ready(function(){
 });
 $('#semester').on('change', function(){
 	$('#game').html('');
-	if ($('#semester').val() == 7) {
+	if ($('#semester').val() == 8) {
+		$("#game").append("<option value='3'>BBCF</option>");
+		$("#game").append("<option value='12'>GGST</option>");
+		$("#game").append("<option value='14'>DNF</option>");
+	}
+	else if ($('#semester').val() == 7) {
 		$("#game").append("<option value='3'>BBCF</option>");
 		$("#game").append("<option value='12'>GGST</option>");
 		$("#game").append("<option value='10'>UNICLR</option>");
