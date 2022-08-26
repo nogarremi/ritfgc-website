@@ -41,6 +41,9 @@ function makeHtml(gameID, results) {
 		case 13:
 			game = 'mbtl';
 			break;
+		case 14:
+			game = 'dnf';
+			break;
 	}
 
 	// Just grab the 1st 3 results and put them on display
