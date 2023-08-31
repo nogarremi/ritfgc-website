@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
   //getScores(SemesterID,GameID)
-  getScores(10,3);
-  getScores(10,15);
-  getScores(10,12);
+  getScores(9,4);
+  getScores(9,12);
+  getScores(9,13);
   
   $(".navbar a, footer a[href='#topOfPage']").on('click', function(event) {
     if (this.hash !== "") {
