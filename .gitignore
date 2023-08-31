@@ -1,2 +1,3 @@
 google*.html
 *.bak
+**/.vs
