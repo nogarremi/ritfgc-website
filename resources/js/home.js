@@ -47,6 +47,10 @@ function makeHtml(gameID, results) {
 		case 15:
 			game = 'sf6'
 			break;
+		// TO-DO: Add UNI 2 once gameID gets added to challonge
+		// case 16:
+		// 	game = 'unisc'
+		// 	break;
 	}
 
 	// Just grab the 1st 3 results and put them on display
