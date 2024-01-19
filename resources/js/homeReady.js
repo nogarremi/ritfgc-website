@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
   //getScores(SemesterID,GameID)
-  getScores(10,3);
-  getScores(10,15);
-  getScores(10,12);
+  // getScores(11,16) TO-DO: Add UNI 2 once added to Challonge
+  getScores(11,15);
+  getScores(11,12);
   
   $(".navbar a, footer a[href='#topOfPage']").on('click', function(event) {
     if (this.hash !== "") {
