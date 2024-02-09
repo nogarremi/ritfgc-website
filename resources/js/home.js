@@ -47,7 +47,7 @@ function makeHtml(gameID, results) {
 		case 15:
 			game = 'sf6'
 			break;
-		// TO-DO: Add UNI 2 once gameID gets added to challonge
+		// TO-DO: Add UNI 2 once gameID gets added to challonge. Hope it happens eventually, it's been two weeks now
 		// case 16:
 		// 	game = 'unisc'
 		// 	break;
