@@ -4,9 +4,10 @@ $(document).ready(function(){
 $('#semester').on('change', function(){
 	$('#game').html('');
 	if ($('#semester').val() == 11) {
-		// $("#game").append("<option value='16'>UNISC</option>"); TO-DO: Add UNI 2 once gameID is added to challonge
-		$("#game").append("<option value='15'>SF6</option>");
+		// UNI 2 is using CLR value for now, as it hasn't been added to Challonge yet
 		$("#game").append("<option value='12'>GGST</option>");
+		$("#game").append("<option value='15'>SF6</option>");
+		$("#game").append("<option value='10'>UNISC</option>");
 	}
 	else if ($('#semester').val() == 10) {
 		$("#game").append("<option value='3'>BBCF</option>");
