@@ -1,7 +1,7 @@
 function makeHtml(gameID, results) {
 	// This is so the proper dropdown gets populated with the data
 	var game = '';
-	switch(gameID) {
+	switch (gameID) {
 		case 1:
 			game = 't7';
 			break;
@@ -47,18 +47,17 @@ function makeHtml(gameID, results) {
 		case 15:
 			game = 'sf6'
 			break;
-		// TO-DO: Add UNI 2 once gameID gets added to challonge. Hope it happens eventually, it's been two weeks now
-		// case 16:
-		// 	game = 'unisc'
-		// 	break;
+		case 16:
+			game = 'unisc'
+			break;
 	}
 
 	// Just grab the 1st 3 results and put them on display
 	var first = Object.keys(results)[0];
 	var second = Object.keys(results)[1];
 	var third = Object.keys(results)[2];
-	document.getElementById(game + "Ranks").innerHTML = "<p><strong>First Place: </strong>" + 
-		first + " - " + results[first][0] + " pts</p><p><strong>Second Place: </strong>" + 
-		second + " - " + results[second][0] + " pts</p><p><strong>Third Place: </strong>" + 
+	document.getElementById(game + "Ranks").innerHTML = "<p><strong>First Place: </strong>" +
+		first + " - " + results[first][0] + " pts</p><p><strong>Second Place: </strong>" +
+		second + " - " + results[second][0] + " pts</p><p><strong>Third Place: </strong>" +
 		third + " - " + results[third][0] + " pts</p>";
 }
