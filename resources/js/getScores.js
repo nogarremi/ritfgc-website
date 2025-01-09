@@ -10,7 +10,7 @@ function getScores(semesterID = 12, gameID = 15) {
 	xhttp.onreadystatechange = function() {
 		if(xhttp.readyState == 4 && xhttp.status == 200) {
 			var res = JSON.parse(xhttp.responseText);
-			makeHtml(gameID, res[Object.keys(res)[0]]);
+			makeHtml(res[Object.keys(res)[0]]);
 		}
 	};
     //Opens the connection to get data
