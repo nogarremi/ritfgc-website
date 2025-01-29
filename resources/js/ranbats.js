@@ -64,7 +64,7 @@ const sortTable = (colIndex) => {
 }
 
 // Creates a ranking table of current game in current semester inside #results
-const makeHtml = (results) => {
+const makeHtml = (gameID, results) => {
 	// Reset default values for table sorting
 	desc = true;
 	lastCol = 2;

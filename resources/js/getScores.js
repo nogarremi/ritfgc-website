@@ -1,4 +1,4 @@
-function getScores(semesterID = 12, gameID = 15) {
+function getScores(semesterID = 13, gameID = 3) {
     // This is a check for the ranbats page to get default values on page load
 	if ($("#semester").find("option").length != 0 && $("#game").find("option").length != 0){
 		semesterID = $("#semester").val();
@@ -10,7 +10,7 @@ function getScores(semesterID = 12, gameID = 15) {
 	xhttp.onreadystatechange = function() {
 		if(xhttp.readyState == 4 && xhttp.status == 200) {
 			var res = JSON.parse(xhttp.responseText);
-			makeHtml(res[Object.keys(res)[0]]);
+			makeHtml(gameID, res[Object.keys(res)[0]]);
 		}
 	};
     //Opens the connection to get data
