@@ -1,4 +1,4 @@
-function getScores(semesterID = 13, gameID = 3) {
+function getScores(semesterID = 14, gameID = 3) {
     // This is a check for the ranbats page to get default values on page load
 	if ($("#semester").find("option").length != 0 && $("#game").find("option").length != 0){
 		semesterID = $("#semester").val();
