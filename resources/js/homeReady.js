@@ -1,10 +1,10 @@
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip(); 
   //getScores(SemesterID,GameID)
-  getScores(15,15);
-  getScores(15,3);
-  getScores(15,9);
-  getScores(15,16);
+  getScores(16,12);
+  getScores(16,17);
+  getScores(16,3);
+  getScores(16,16);
   
   $(".navbar a, footer a[href='#topOfPage']").on('click', function(event) {
     if (this.hash !== "") {
